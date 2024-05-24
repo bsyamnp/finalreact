@@ -1,0 +1,143 @@
+/* Filters */
+.filters a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+.filters a:hover,
+.filters a.active {
+  color: #007bff;
+}
+
+/* Portfolio Items */
+#portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  width: 100%; /* Ensures the card takes the appropriate width */
+  margin-bottom: 20px; /* Add spacing between rows */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px; /* Make the image square by setting the height */
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.item {
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+  .card {
+    width: 100%; /* Adjust the card width for smaller screens */
+  }
+
+  .card-img-top {
+    height: 150px; /* Adjust for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%; /* Full width for very small screens */
+  }
+
+  .card-img-top {
+    height: 100px; /* Adjust for very small screens */
+  }
+}
+
+/* Form Style */
+.modal-content {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+}
+
+.modal-body {
+  padding: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #565e64;
+}

@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .navbar .navbar-brand {
+    color: white;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .readmore {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .work-item {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .work-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .list-unstyled {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-unstyled li {
+    margin-bottom: 10px;
+  }
+  
+  .progress {
+    height: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    background-color: #007bff;
+  }
+  

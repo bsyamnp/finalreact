@@ -1,0 +1,112 @@
+.works-container {
+  padding: 60px 0;
+}
+
+.works-container .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.works-container h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.work-item {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fff;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work-item:hover {
+  transform: translateY(-10px);
+}
+
+.work-item img {
+  max-width: 400px; /* Уменьшил размер изображения */
+  height: auto;
+  border-radius: 5px;
+}
+
+.work-item h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.work-item p {
+  color: #777;
+  font-size: 1rem;
+  text-align: center; /* Выровнял текст по центру */
+}
+/* Form Style */
+.modal-content {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+}
+
+.modal-body {
+  padding: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #565e64;
+}
+

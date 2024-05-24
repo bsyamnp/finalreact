@@ -1,0 +1,62 @@
+/* Contact.css */
+
+/* Form Container */
+.contact-form {
+    width: 100%;
+  }
+  
+  /* Form Group */
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Text Input Styles */
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .contact-form input[type="text"]:focus,
+  .contact-form input[type="email"]:focus,
+  .contact-form textarea:focus {
+    border-color: #007bff; /* Focus border color */
+  }
+  
+  /* Button Styles */
+  .contact-form button[type="submit"] {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
+  /* Loading, Error, and Success Messages */
+  .contact-form .loading,
+  .contact-form .error-message,
+  .contact-form .success-message {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .contact-form .error-message {
+    color: red; /* Error message color */
+  }
+  
+  .contact-form .success-message {
+    color: green; /* Success message color */
+  }
+  

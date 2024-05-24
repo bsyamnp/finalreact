@@ -1,0 +1,98 @@
+#main {
+  padding: 80px 0;
+}
+
+.site-section {
+  padding: 60px 0;
+}
+
+.site-portfolio {
+  background-color: #f8f9fa;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.site-portfolio h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.site-portfolio p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.site-portfolio .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site-portfolio .col-md-6 {
+  width: 100%;
+}
+
+.site-portfolio .col-md-7 {
+  order: 1;
+}
+
+.site-portfolio .col-md-4 {
+  order: 2;
+}
+
+.site-portfolio h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.site-portfolio .list-unstyled li {
+  margin-bottom: 20px;
+}
+
+.site-portfolio .list-unstyled li strong {
+  font-weight: bold;
+  color: #333;
+  display: block;
+}
+
+.site-portfolio .progress {
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.site-portfolio .progress-bar {
+  background-color: #007bff;
+}
+
+.site-portfolio p {
+  font-size: 16px;
+  color: #666;
+}
+
+.site-portfolio .readmore {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.site-portfolio .readmore:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .site-portfolio .col-md-7 {
+    margin-top: 20px;
+  }
+
+  .site-portfolio .col-md-4 {
+    margin-top: 10px; /* Уменьшил отступ */
+  }
+}
