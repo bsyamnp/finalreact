@@ -114,10 +114,6 @@ function Home() {
         </div>
       </div>
 
-      {/* Кнопка для открытия модального окна */}
-      <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#addItemModal">
-        Add New Item
-      </button>
     </div>
   );
 }
